@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <title>Gevaarlijkste dieren | Muggen</title>
+</head>
+
+<body>
+    <header>
+        <h1 id=naam>De 3 gevaarlijkste dieren op aarde</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mug.html">Mug</a></li>
+                <li><a href="slang.html">Slang</a></li>
+                <li><a href="schorpioen.html">Schorpioen</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- dit zijn een paar stukjes tekst met een afbeelding en tot slot een kleine vragenlijst -->
+
+        <figure class=mug>
+            <img class=afmmug src="./images/shutterstock_55130686.jpg" alt="Een mug van dichtbij.">
+            <figcaption>
+                De mug.
+            </figcaption>
+        </figure>
+
+        <!-- De article heeft een class ipv een h-tag, omdat een h-tag overbodig is, omdat hij er al instaat. -->
+        <article class="plaatsingmug">
+            <h1>Muggen</h1>
+            <!-- Hier staan strong-tags om bepaalde woorden heen, omdat ze een sterke nadruk hebben, wat effect heeft op de uitspraak van deze woorden.-->
+            <blockquote cite="https://www.dierenfun.com/15-dodelijkste-dieren-ter-wereld-voor-mensen/">
+                <p>Het is inmiddels wel bekend dat muggen aardig wat <strong>vervelende ziektes</strong> met zich mee kunnen dragen. Malaria is al goed voor de helft van alle doden die jaarlijks vallen door een muggenbeet. Knokkelkoorts is ook een groot probleem dat deze kleine beestjes veroorzaken. Dat maakt de mug het dodelijkste dier van allemaal.</p>
+            </blockquote>
+        </article>
+
+        <article>
+            <h2>Wat is precies een mug?</h2>
+            <blockquote cite="https://nl.wikipedia.org/wiki/Muggen">
+                <p>Muggen zijn vliegende insecten uit de orde tweevleugeligen en de onderorde muggen (Nematocera).
+                    Een mug heeft een klein, dun en fragiel lichaam, zes dunne pootjes, meestal twee veerachtige antennes waarmee zeer goed geur waargenomen kan worden en een kleine kop met vaak zichtbare zuigsnuit. Er zijn wel soorten die wat groter worden maar deze hebben steeds een langwerpige bouw en meestal sprieterige poten. Sommige muggen echter, zoals de knutten, hebben een meer vliegachtige bouw, ze worden ook wel zandvliegen genoemd. Alle muggen hebben een zuigsnuit, maar verreweg de meeste soorten kunnen daar niet mee steken. De muggen die wel kunnen steken behoren tot verschillende families, waarvan die der steekmuggen (Culicidae) ongetwijfeld de bekendste is. Soorten uit deze familie zijn onder andere de malariamuggen (geslacht Anopheles) die bij de mens indirect verantwoordelijk zijn voor meer dan een miljoen doden per jaar. Ook andere muggen kunnen voor overlast zorgen al kunnen ze niet steken, voorbeelden zijn langpootmuggen waarvan de larven het gazon aantasten, motmuggen die massaal kunnen opduiken bij een gesprongen riolering en rouwmuggen die in reusachtige zwermen kunnen voorkomen die het verkeer kunnen hinderen. Bovendien brengt het trillen van de vleugels van muggen een zoemend geluid voort dat door mensen veelal als hinderlijk wordt ervaren.
+                </p>
+            </blockquote>
+        </article>
+
+        <article>
+            <!-- Hier staan feiten over de mug -->
+            <h2>Feiten over muggen</h2>
+            <blockquote cite="https://www.volkskrant.nl/de-gids/wat-weten-we-van-muggen-en-wat-weet-de-mug-van-ons-~bd341c75/">
+                <ol>
+                    <li>Ze komen niet af op licht</li>
+                    <li>Ze voeden zich niet met bloed</li>
+                    <li>Sommige mensen worden vaker gestoken dan andere</li>
+                    <li>Die citroenplant helpt niet…</li>
+                    <li>...maar citronella wél (een beetje)</li>
+                    <li>Kruisjes helpen niet</li>
+                    <li>Honing trouwens ook niet</li>
+                    <li>Molestusmug goed, tijgermug slecht</li>
+                    <li>Een terugkeer van malaria is niet zo waarschijnlijk</li>
+                </ol>
+            </blockquote>
+        </article>
+        <!-- vragenlijst over de mug-->
+        <!-- de section heeft een class gekregen ipv een h-tag, omdat er al een p instaat met de vraag erin. -->
+
+        <article>
+            <h2>Vragenlijst over de mug</h2>
+            <!-- de waarde van action is de pagina zelf, omdat er geen server is waar de pagina met de ingevulde gegevens naartoe verzonden kan worden. -->
+            <form action="mug.html" method=get>
+
+                <section class=v1>
+                    <p>1. Hoe eng vind jij dit dier?(Op een schaal van 1-10)</p>
+                    <input id="1" type="radio" name="angst" value="1">
+                    <label for="1">1</label>
+
+                    <input id="2" type="radio" name="angst" value="2">
+                    <label for="2">2</label>
+
+                    <input id="3" type="radio" name="angst" value="3">
+                    <label for="3">3</label>
+
+                    <input id="4" type="radio" name="angst" value="4">
+                    <label for="4">4</label>
+
+                    <input id="5" type="radio" name="angst" value="5">
+                    <label for="5">5</label>
+
+                    <input id="6" type="radio" name="angst" value="6">
+                    <label for="6">6</label>
+
+                    <input id="7" type="radio" name="angst" value="7">
+                    <label for="7">7</label>
+
+                    <input id="8" type="radio" name="angst" value="8">
+                    <label for="8">8</label>
+
+                    <input id="9" type="radio" name="angst" value="9">
+                    <label for="9">9</label>
+
+                    <input id="10" type="radio" name="angst" value="10">
+                    <label for="10">10</label>
+                </section>
+
+                <section class=v2>
+                    <p> 2. Wat zou jij doen als je dit dier in je badkamer tegenkomt?</p>
+                    <input id="wegrennen" type="radio" name="badkamer" value="wegrennen">
+                    <label for="wegrennen">Wegrennen</label>
+
+                    <input id="stilbijvenstaan" type="radio" name="badkamer" value="stilbijvenstaan">
+                    <label for="stilbijvenstaan">Stil blijven staan</label>
+
+                    <input id="opeten" type="radio" name="badkamer" value="opeten">
+                    <label for="opeten">Opeten</label>
+
+                    <input id="ophetdierstaan" type="radio" name="badkamer" value="ophetdierstaan">
+                    <label for="ophetdierstaan">Op het dier staan</label>
+                </section>
+
+                <section class=v3>
+
+                    <p>3. Nu je meer over dit dier weet, zou je hem een keer in het echt willen zien?</p>
+                    <input id="ja" type="radio" name="zien" value="ja">
+                    <label for="ja">Ja</label>
+
+                    <input id="nee" type="radio" name="zien" value="nee">
+                    <label for="nee">Nee</label>
+
+                    <input id="anders" type="radio" name="zien" value="anders">
+                    <label for="anders">Anders, namelijk:</label>
+                    <textarea name="woord">Geef je antwoord...</textarea>
+                </section>
+
+                <section class=v4>
+                    <p>4. Beschrijf dit dier in 1 woord (niet de naam van het dier)</p>
+                    <input id="1woord" class=naamdier type="text">
+                    <label for="1woord"></label>
+
+
+                </section>
+                <input class=versturen type="submit" value="Versturen" />
+            </form>
+        </article>
+
+    </main>
+    <!-- dit is de footer, hierin staat de bronvermelding. -->
+    <footer>
+        <h3>Bronvermelding</h3>
+        <ul>
+            <li><cite><a href="https://www.dierenfun.com/15-dodelijkste-dieren-ter-wereld-voor-mensen/">''Muggen''</a></cite></li>
+            <li><cite><a href="https://nl.wikipedia.org/wiki/Muggen">''Wat is precies een mug?''</a></cite></li>
+            <li><cite><a href="https://www.volkskrant.nl/de-gids/wat-weten-we-van-muggen-en-wat-weet-de-mug-van-ons-~bd341c75/">''Feiten''</a></cite></li>
+            <li><cite><a href="https://dsocdn.akamaized.net/Assets/Images_Upload/2014/04/28/shutterstock_55130686.jpg?maxheight=416&maxwidth=568">Afbeelding mug</a></cite></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
