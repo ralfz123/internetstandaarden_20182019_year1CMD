@@ -1,0 +1,350 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'arial', sans-serif;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* naam van de website */
+h1#naam {
+    color: white;
+    background-color: green;
+    text-align: center;
+
+    font-size: 50px;
+    padding: 20px 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+
+/* hoofdkoppen */
+h1 {
+    color: green;
+    font-size: 30px;
+}
+
+
+/* subkoppen */
+h2 {
+    color: green;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+
+/* vormgeving van de navigatie */
+nav {
+    margin: 10px 0px;
+    padding: 3px;
+    text-align: center;
+    list-style-type: none;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 8px;
+    width: 40px;
+}
+
+nav ul li a {
+    display: inline;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+
+/* interactie met navigatie */
+nav ul li a:link {
+    color: white;
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: darkgray;
+    border-radius: 30px;
+}
+
+nav ul li a:active {
+    color: white;
+    background-color: darkgray;
+}
+
+
+/* de 3 onderwerpen met content plaatsen */
+article.hmug {
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+article.hslang {
+    float: right;
+    margin-left: 200px;
+    clear: both;
+}
+
+article.hschorpioen {
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+
+/* afbeelding met bijschrift */
+article figure {
+    margin-bottom: 17px;
+}
+
+/* tekst van ieder onderwerp */
+article.hmug p,
+article.hslang p,
+article.hschorpioen p {
+    margin: 0px 0px 10px 0px;
+}
+
+
+/* afmetingen van de afbeeldingen */
+img.homemug {
+    width: 533px;
+    height: 300px;
+}
+
+img.homeslang {
+    width: 504px;
+    height: 264px;
+    margin: 0px 0px 0px 10px;
+}
+
+img.homeschorpioen {
+    width: 453px;
+    height: 340px
+}
+
+img.afmmug {
+    width: 422px;
+    height: 312px;
+}
+
+img.afmslang {
+    width: 548px;
+    height: 300px;
+}
+
+img.afmschorpioen {
+    width: 371px;
+    height: 281px;
+}
+
+img.afmabout {
+    width: 330px;
+    height: 250px;
+}
+
+/* vormgeving van de link 'lees meer' */
+
+article.hmug p a.lezen {
+    padding: 2px 10px 2px 0px;
+    font-style: italic;
+}
+
+article.hslang p a.lezen {
+    padding: 2px 10px 2px 0px;
+    font-style: italic;
+}
+
+article.hschorpioen p a.lezen {
+    padding: 2px 10px 2px 0px;
+    font-style: italic;
+}
+
+
+/* interactie met de link 'lees meer' */
+a.lezen:visited {
+    color: black;
+}
+
+a.lezen:hover {
+    color: blue;
+}
+
+
+/* lettergrootte van bijschrift bij afbeelding */
+figcaption {
+    font-size: 11px
+}
+
+
+/* tekst vormgeven/plaatsen */
+blockquote {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+blockquote p {
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+blockquote ol {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+main.about p {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+
+/* plaatsing van afbeelding van iedere pagina. Eigenschap 'clear' met waarde 'left' is gebruikt, omdat linkerkant van dat blok niet in aanraking mag komen met andere elementen in dat blok. */
+figure.mug {
+    float: right;
+    clear: left;
+}
+
+figure.slang {
+    float: right;
+    clear: left;
+}
+
+figure.schorpioen {
+    float: right;
+    clear: left;
+}
+
+figure.about {
+    text-align: center;
+}
+
+/* vormgeving formulier*/
+form {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 13px;
+}
+
+/* de vragen en antwoordopties centreren */
+section.v1,
+section.v2,
+section.v3,
+section.v4 {
+    text-align: center;
+}
+
+/* de vragen vet maken */
+section.v1 p,
+section.v2 p,
+section.v3 p,
+section.v4 p {
+    font-weight: bold;
+}
+
+/* vormgeven van het tekstgebied */
+textarea {
+    height: 15px;
+    margin-bottom: 0px;
+    border: 0.5px solid grey;
+}
+
+/* vormgeven van het tekstinvoervak */
+input.naamdier {
+    border: 0.5px solid grey;
+}
+
+/* vormgeving van de knop 'versturen' */
+input.versturen {
+    margin: 15px 30px 8px 165px;
+    width: 70px;
+    padding: 10px 5px;
+    text-shadow: 0px 0.5px 0px grey;
+    border: 3px outset;
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+    transition: 0.3s;
+    /* Bron: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
+}
+
+/* interactie met de knop 'versturen' */
+input.versturen:hover {
+    background-color: green;
+    color: white;
+}
+
+
+/* footer */
+footer {
+    background-color: grey;
+    padding: 1px 10px 15px 10px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 13px;
+    color: white;
+}
+
+
+footer ul li {
+    list-style: none;
+    text-indent: -2em;
+}
+
+footer ul li cite a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 13px;
+}
+
+/* footer van de homepagina */
+footer.footerh {
+    margin-top: 1400px;
+    padding: 1px 10px 5px 20px;
+    display: block;
+    background-color: grey;
+}
+
+/* interactie met footer */
+footer ul li cite a:link {
+    color: white;
+}
+
+footer ul li cite a:visited {
+    color: white;
+}
+
+footer ul li cite a:hover {
+    text-decoration: underline;
+}

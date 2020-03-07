@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <title>Gevaarlijkste dieren | Schorpioen</title>
+</head>
+
+<body>
+    <header>
+        <h1 id=naam>De 3 gevaarlijkste dieren op aarde</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mug.html">Mug</a></li>
+                <li><a href="slang.html">Slang</a></li>
+                <li><a href="schorpioen.html">Schorpioen</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- dit zijn een paar stukjes tekst met een afbeelding en tot slot een kleine vragenlijst -->
+        <figure class=schorpioen>
+            <img class=afmschorpioen src="./images/schorpioen.png" alt="Een zwarte schorpioen van dichtbij.">
+            <figcaption>
+                Een zwarte schorpioen.
+            </figcaption>
+        </figure>
+
+        <article>
+            <h1>Schorpioenen</h1>
+            <!-- Hier staan strong-tags om bepaalde woorden heen, omdat ze een sterke nadruk hebben, wat effect heeft op de uitspraak van deze woorden.-->
+            <blockquote cite="https://nl.wikipedia.org/wiki/Schorpioenen_(orde)">
+                <p>Schorpioenen (Scorpiones) zijn een orde van geleedpotige dieren die behoren tot de klasse spinachtigen. Schorpioenen behoren tot de <strong>oudst bekende spinachtigen</strong> en worden daarnaast gezien als een vrij primitieve groep binnen deze klasse.</p>
+            </blockquote>
+        </article>
+
+        <article>
+            <h2>Wat is precies een schorpioen?</h2>
+            <blockquote cite="https://www.alletop10lijstjes.nl/top-10-gevaarlijkste-dieren/">
+                <p>De schorpioen lijkt wel ‘superhero krachten’ te hebben, dit kleine beestje kan overleven bij temperaturen boven de 55 graden Celsius, maar ook op de koudste plaatsen op aarde. Hij kan zijn adem drie dagen inhouden, een jaar lang niks eten, en heeft ook nog eens de beschikking over een zeer dodelijk gif. Er zijn ongeveer 1750 verschillende soorten schorpioenen, de een gevaarlijker dan de ander. Samen zorgen ze voor ongeveer 5.000 dodelijke slachtoffers per jaar.</p>
+            </blockquote>
+        </article>
+        <!-- Hier staan feiten over de schorpioen -->
+        <article>
+            <h2>Feiten over schorpioenen</h2>
+            <blockquote cite="https://www.zucht.be/leuke-weetjes-schorpioen/">
+                <ol>
+                    <li>Eerlijkheid en trouw zijn erg belangrijke kenmerken van de vrienden van de Schorpioen.</li>
+                    <li>‘Ik wil’ is de sleutelzin van de Schorpioen. </li>
+                    <li>De Schorpioen is het meest seksueel gerichte en actieve sterrenbeeld. </li>
+                </ol>
+            </blockquote>
+        </article>
+
+        <!-- vragenlijst over de schorpioen-->
+        <!-- de section heeft een class gekregen ipv een h-tag, omdat er al een p instaat met de vraag erin. -->
+        <article>
+            <h2>Vragenlijst over de schorpioen</h2>
+            <!-- de waarde van action is de pagina zelf, omdat er geen server is waar de pagina met de ingevulde gegevens naartoe verzonden kan worden. -->
+            <form action="schorpioen.html" method=get>
+
+                <section class=v1>
+                    <p>1. Hoe eng vind jij dit dier?(Op een schaal van 1-10)</p>
+                    <input id="1" type="radio" name="angst" value="1">
+                    <label for="1">1</label>
+
+                    <input id="2" type="radio" name="angst" value="2">
+                    <label for="2">2</label>
+
+                    <input id="3" type="radio" name="angst" value="3">
+                    <label for="3">3</label>
+
+                    <input id="4" type="radio" name="angst" value="4">
+                    <label for="4">4</label>
+
+                    <input id="5" type="radio" name="angst" value="5">
+                    <label for="5">5</label>
+
+                    <input id="6" type="radio" name="angst" value="6">
+                    <label for="6">6</label>
+
+                    <input id="7" type="radio" name="angst" value="7">
+                    <label for="7">7</label>
+
+                    <input id="8" type="radio" name="angst" value="8">
+                    <label for="8">8</label>
+
+                    <input id="9" type="radio" name="angst" value="9">
+                    <label for="9">9</label>
+
+                    <input id="10" type="radio" name="angst" value="10">
+                    <label for="10">10</label>
+                </section>
+
+                <section class=v2>
+                    <p> 2. Wat zou jij doen als je dit dier in je badkamer tegenkomt?</p>
+                    <input id="wegrennen" type="radio" name="badkamer" value="wegrennen">
+                    <label for="wegrennen">Wegrennen</label>
+
+                    <input id="stilbijvenstaan" type="radio" name="badkamer" value="stilbijvenstaan">
+                    <label for="stilbijvenstaan">Stil blijven staan</label>
+
+                    <input id="opeten" type="radio" name="badkamer" value="opeten">
+                    <label for="opeten">Opeten</label>
+
+                    <input id="ophetdierstaan" type="radio" name="badkamer" value="ophetdierstaan">
+                    <label for="ophetdierstaan">Op het dier staan</label>
+                </section>
+
+                <section class=v3>
+
+                    <p>3. Nu je meer over dit dier weet, zou je hem een keer in het echt willen zien?</p>
+                    <input id="ja" type="radio" name="zien" value="ja">
+                    <label for="ja">Ja</label>
+
+                    <input id="nee" type="radio" name="zien" value="nee">
+                    <label for="nee">Nee</label>
+
+                    <input id="anders" type="radio" name="zien" value="anders">
+                    <label for="anders">Anders, namelijk:</label>
+                    <textarea name="woord">Geef je antwoord...</textarea>
+                </section>
+
+                <section class=v4>
+                    <p>4. Beschrijf dit dier in 1 woord (niet de naam van het dier)</p>
+                    <input id="1woord" class=naamdier type="text">
+                    <label for="1woord"></label>
+
+
+                </section>
+                <input class=versturen type="submit" value="Versturen" />
+            </form>
+        </article>
+    </main>
+    <!-- dit is de footer, hierin staat de bronvermelding. -->
+    <footer>
+        <h3>Bronvermelding</h3>
+        <ul>
+            <li><cite><a href="https://nl.wikipedia.org/wiki/Schorpioenen_(orde)">''Schorpioenen''</a></cite></li>
+            <li>
+                <cite><a href="https://www.alletop10lijstjes.nl/top-10-gevaarlijkste-dieren/">''Wat is precies een schorpioen?''</a></cite></li>
+            <li>
+                <cite><a href="https://www.zucht.be/leuke-weetjes-schorpioen/">''Feiten over schorpioenen''</a></cite></li>
+            <li>
+                <cite><a href="https://sites.google.com/site/lucasdierenwereld/aankondigingen/schorpioen">Afbeelding schorpioen</a></cite></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

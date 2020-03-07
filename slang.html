@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <title>Gevaarlijkste dieren | Slang</title>
+</head>
+
+<body>
+    <header>
+        <h1 id=naam>De 3 gevaarlijkste dieren op aarde</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mug.html">Mug</a></li>
+                <li><a href="slang.html">Slang</a></li>
+                <li><a href="schorpioen.html">Schorpioen</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- dit zijn een paar stukjes tekst met een afbeelding en tot slot een kleine vragenlijst -->
+        <figure class=slang>
+            <img class=afmslang src="./images/slang.png" alt="Een slang van dichtbij.">
+
+            <figcaption>
+                De slang.
+            </figcaption>
+        </figure>
+        <article>
+            <h1>Slangen</h1>
+            <!-- Hier staan strong-tags om bepaalde woorden heen, omdat ze een sterke nadruk hebben, wat effect heeft op de uitspraak van deze woorden.-->
+            <blockquote cite="https://nl.wikipedia.org/wiki/Slangen">
+                <p> Slangen (Serpentes) zijn <strong>een groep van aan hagedissen verwante reptielen</strong> die behoren tot de orde schubreptielen (Squamata). Alle soorten worden gekenmerkt door een naar verhouding zeer lang en dun lichaam en het ontbreken van ledematen. Slangen zijn duidelijk te onderscheiden van alle andere dieren en de meeste andere reptielen als krokodilachtigen, schildpadden en brughagedissen. Met sommige groepen van hagedissen is het onderscheid niet zo duidelijk.</p>
+            </blockquote>
+        </article>
+
+        <!-- Hier staan feiten over de slang -->
+        <article>
+            <h2>Feiten over slangen</h2>
+            <blockquote cite="https://dier-en-natuur.infonu.nl/reptielen/17184-dierenweetjes-slangen.html">
+                <ol>
+                    <li>Zijn er slangen met poten?
+                        Ja. Vele grote slangen, zoals boa’s en pythons, hebben kleine poten onder de huid in de buurt van de anusspleet.
+                    </li>
+                    <li>Bestaan er vliegende slangen?
+                        Ja. Er bestaan inderdaad vliegende slangen, maar het gaat hier niet om slangen met vleugels. Op Java en Malakka leven slangen, de Chrysopelea en de C. Paradisi, die hun lichaam helemaal plat maken door hun ribbenkast op te trekken en hun buikoppervlak hol te maken.
+                    </li>
+                    <li>Wat is tongelen?
+                        Tongelen is het in en uit bewegen van de gespleten tong. Slangen doen dit omdat er geurstoffen op zijn tong komen als hij die naar buiten steekt.
+                    </li>
+                    <li>Is de boa constrictor giftig?
+                        Nee. De boa constrictor is niet giftig, maar doodt haar slachtoffers door zich om hun lichaam te winden en hen te verstikken.
+                    </li>
+                    <li>Zijn er slangen die gif spuwen?
+                        Ja. In Afrika en Azië leven er cobra’s die gif spuwen.
+                    </li>
+                </ol>
+            </blockquote>
+        </article>
+        <!-- vragenlijst over de slang-->
+        <!-- de section heeft een class gekregen ipv een h-tag, omdat er al een p instaat met de vraag erin. -->
+        <article>
+            <h2>Vragenlijst over de slang</h2>
+            <!-- de waarde van action is de pagina zelf, omdat er geen server is waar de pagina met de ingevulde gegevens naartoe verzonden kan worden. -->
+            <form action="slang.html" method=get>
+
+                <section class=v1>
+                    <p>1. Hoe eng vind jij dit dier?(Op een schaal van 1-10)</p>
+                    <input id="1" type="radio" name="angst" value="1">
+                    <label for="1">1</label>
+
+                    <input id="2" type="radio" name="angst" value="2">
+                    <label for="2">2</label>
+
+                    <input id="3" type="radio" name="angst" value="3">
+                    <label for="3">3</label>
+
+                    <input id="4" type="radio" name="angst" value="4">
+                    <label for="4">4</label>
+
+                    <input id="5" type="radio" name="angst" value="5">
+                    <label for="5">5</label>
+
+                    <input id="6" type="radio" name="angst" value="6">
+                    <label for="6">6</label>
+
+                    <input id="7" type="radio" name="angst" value="7">
+                    <label for="7">7</label>
+
+                    <input id="8" type="radio" name="angst" value="8">
+                    <label for="8">8</label>
+
+                    <input id="9" type="radio" name="angst" value="9">
+                    <label for="9">9</label>
+
+                    <input id="10" type="radio" name="angst" value="10">
+                    <label for="10">10</label>
+                </section>
+
+                <section class=v2>
+                    <p> 2. Wat zou jij doen als je dit dier in je badkamer tegenkomt?</p>
+                    <input id="wegrennen" type="radio" name="badkamer" value="wegrennen">
+                    <label for="wegrennen">Wegrennen</label>
+
+                    <input id="stilbijvenstaan" type="radio" name="badkamer" value="stilbijvenstaan">
+                    <label for="stilbijvenstaan">Stil blijven staan</label>
+
+                    <input id="opeten" type="radio" name="badkamer" value="opeten">
+                    <label for="opeten">Opeten</label>
+
+                    <input id="ophetdierstaan" type="radio" name="badkamer" value="ophetdierstaan">
+                    <label for="ophetdierstaan">Op het dier staan</label>
+                </section>
+
+                <section class=v3>
+
+                    <p>3. Nu je meer over dit dier weet, zou je hem een keer in het echt willen zien?</p>
+                    <input id="ja" type="radio" name="zien" value="ja">
+                    <label for="ja">Ja</label>
+
+                    <input id="nee" type="radio" name="zien" value="nee">
+                    <label for="nee">Nee</label>
+
+                    <input id="anders" type="radio" name="zien" value="anders">
+                    <label for="anders">Anders, namelijk:</label>
+                    <textarea name="woord">Geef je antwoord...</textarea>
+                </section>
+
+                <section class=v4>
+                    <p>4. Beschrijf dit dier in 1 woord (niet de naam van het dier)</p>
+                    <input id="1woord" class=naamdier type="text">
+                    <label for="1woord"></label>
+
+
+                </section>
+                <input class=versturen type="submit" value="Versturen" />
+            </form>
+        </article>
+    </main>
+    <!-- dit is de footer, hierin staat de bronvermelding. -->
+    <footer>
+        <h3>Bronvermelding</h3>
+        <ul>
+            <li><cite><a href="https://nl.wikipedia.org/wiki/Slangen">''Slangen''</a></cite></li>
+            <li><cite><a href="https://dier-en-natuur.infonu.nl/reptielen/17184-dierenweetjes-slangen.html">''Feiten over slangen''</a></cite></li>
+            <li><cite><a href="https://www.nationalgeographic.com.au/animals/3-new-snakes-found-one-named-for-underworld-monster.aspx">Afbeelding slang</a></cite></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
