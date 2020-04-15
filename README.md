@@ -1,7 +1,7 @@
 # Top 3 most dangerous animals
-<img src="https://images.unsplash.com/photo-1492044715545-15ddedd84e5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80 " width="500" />
+<img src="https://images.unsplash.com/photo-1513714920387-b00f52df9e23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1531&q=80" width="500" />
 
-[Source image](https://images.unsplash.com/photo-1492044715545-15ddedd84e5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80 )
+[Source image](https://images.unsplash.com/photo-1513714920387-b00f52df9e23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1531&q=80)
  
 
 ## Internetstandaarden | 2018-2019 | Year 1 of CMD  
